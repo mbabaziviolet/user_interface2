@@ -1,0 +1,143 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!--for the icons -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+    <link rel="stylesheet" href="style.css">
+         
+    <title>Signin Form & Registration Form</title>
+</head>
+<body>
+    
+    <header>
+        <a href="#" class="logo"><img src="restaurantJoy copy.jpg" alt=""></a>
+
+    
+        <nav class="navbar">
+            <ul>
+                <li><a href="food.html">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#speciality">Speciality</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#order">Order</a></li>
+                <li><a href="index.html">Login</a></li>
+                
+            
+            </ul>
+        </nav>
+    
+    </header>
+    
+    <div class="container">
+        <div class="forms">
+            <div class="form login">
+                <span class="title">HELLO! please log in</span>
+                
+                
+                <form action="#">
+                    <div class="input-field">
+                        <input type="text" placeholder="Enter your email" required>
+                        <i class="uil uil-envelope icon"></i>
+                    </div>
+                    <div class="input-field">
+                        <input type="password" class="password" placeholder="Enter your password" required>
+                        <i class="uil uil-lock icon"></i>
+                        <i class="uil uil-eye-slash showHidePw"></i>
+                    </div>
+
+                    <div class="checkbox-text">
+                        <div class="checkbox-content">
+                            <input type="checkbox" id="logCheck">
+                            <label for="logCheck" class="text">Am a member</label>
+                        </div>
+                        
+                        <a href="#" class="text">Forgot your username or password?</a>
+                    </div>
+
+                    <div class="input-field button">
+                        <input type="button" value="Login Now">
+                    </div>
+                </form>
+
+                <div class="login-signup">
+                    <span class="text">Don't Have Account?
+                        <a href="#" class="text signup-link">Create Account</a>
+                    </span>
+                </div>
+            </div>
+
+            <!-- Registration Form -->
+            <div class="form signup">
+                <span class="title">Registration Form</span>
+                <h1>Please fill in all the fields </h1>
+
+                <form method="POST">
+                <form action="#">
+                    <div class="input-field">
+                        <input type="text" id="username" name="User Name" placeholder="Enter your name"
+                        autocomplete="off"
+                            minlength="8"
+                            maxlength="20"
+                            required>
+                        <i class="uil uil-user"></i>
+                    </div>
+                    <div class="input-field">
+                        <input type="text" placeholder="Enter your email" required>
+                        <i class="uil uil-envelope icon"></i>
+                    </div>
+
+                    <div class="input-field">
+                        <input type="text" placeholder="Enter your address" required>
+                        <i class="uil uil-map icon"></i>
+                    </div>
+                    <div class="input-field">
+                        <input type="text" placeholder="Enter your contact" required>
+                        <i class="uil uil-phone icon"></i>
+                    </div>
+
+                    
+
+                
+                    <div class="input-field">
+                        <input type="password" class="password" placeholder="Create a password" required>
+                        <i class="uil uil-lock icon"></i>
+                        <i class="uil uil-eye-slash showHidePw"></i>
+                    </div>
+
+                    <div class="checkbox-text">
+                        <div class="checkbox-content">
+                            <input type="checkbox" id="sigCheck">
+                            <label for="sigCheck" class="text">I agree to the terms and conditions!</label>
+                        </div>
+                        
+                        <a href="#" class="text"></a>
+                    </div>
+
+                    <div class="input-field button">
+                        <input type="button" value="create account">
+                    </div>
+                </form>
+
+                <div class="login-signup">
+                    <span class="text">Created An Account?
+                        <a href="#" class="text login-link">Signup now</a>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+   
+    
+    <script src="script.js"></script>
+
+</body>
+</html>
