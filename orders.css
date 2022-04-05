@@ -82,7 +82,7 @@ header .navbar ul li a{
 
 header .navbar ul li a.active,
 header .navbar ul li a:hover{
-    color: blueviolet;
+    color:crimson;
 }
 
 header #menu-bar{
@@ -91,6 +91,8 @@ header #menu-bar{
     cursor: pointer;
     display: none;
 }
+
+
 
 .home{
     display: flex;
@@ -240,11 +242,18 @@ header #menu-bar{
 
 
 
-.speciality .box-container{
+
+/* .speciality .box-container{
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+}
+.speciality .box-container label{
+    font-size: 15px;
+}
+.input-fields input{
+    width: 10px;
 }
 #rating{
     padding: 7px;
@@ -296,9 +305,9 @@ header #menu-bar{
 .speciality .box-container .box:hover{
     transform: scale(1.02);
     box-shadow: 0 1rem 1rem rgba(0,0,0,.2);
-}
+} */
 
-.gallery .box-container{
+/* .gallery .box-container{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -328,7 +337,7 @@ header #menu-bar{
     text-align: center;
     font-size: 3rem;
     opacity: 0;
-}
+} */
 
 
 
@@ -377,6 +386,8 @@ header #menu-bar{
 .contact-form {
     max-width: 700px;
     margin-right: 50px;
+    
+    
 }
 
 .contact-info,
@@ -394,7 +405,6 @@ header #menu-bar{
 
 .contact-form .text-box {
     background: #000;
-    color: #fff;
     border: none;
     width: calc(50%-10px);
     height: 50px;
@@ -428,7 +438,7 @@ header #menu-bar{
 
 .contact-form .send-btn {
     float: left;
-    background: #2E94E3;
+    background: crimson;
     color: #fff;
     border: none;
     width: 130px;
@@ -443,7 +453,7 @@ header #menu-bar{
 }
 
 .contact-form .send-btn:hover {
-    background: #0582E3;
+    background: black;
 }
 
 @media screen and(max-width:1000px) {
